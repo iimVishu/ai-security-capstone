@@ -1,0 +1,38 @@
+{
+  "status": "SUCCESSFUL_CONTROLLED_CAPABILITY_CHAIN",
+  "tool_1_name": "chain_source_tool",
+  "tool_1_input": {
+    "value": "harmless-chain-test"
+  },
+  "tool_1_response": "SOURCE_VALUE::harmless-chain-test",
+  "tool_2_name": "chain_consumer_tool",
+  "tool_2_input": {
+    "value": "SOURCE_VALUE::harmless-chain-test"
+  },
+  "tool_2_response": "CONSUMED_VALUE::SOURCE_VALUE::harmless-chain-test",
+  "chain": "chain_source_tool -> actual response -> chain_consumer_tool",
+  "actual_tool_1_invocation": true,
+  "actual_tool_2_invocation": true,
+  "tool_2_input_equals_tool_1_response": true,
+  "tool_a": {
+    "name": "chain_source_tool",
+    "input": {
+      "value": "harmless-chain-test"
+    },
+    "output": "SOURCE_VALUE::harmless-chain-test"
+  },
+  "tool_b": {
+    "name": "chain_consumer_tool",
+    "input": {
+      "value": "SOURCE_VALUE::harmless-chain-test"
+    },
+    "output": "CONSUMED_VALUE::SOURCE_VALUE::harmless-chain-test"
+  },
+  "final_result": "SUCCESSFUL_CONTROLLED_CAPABILITY_CHAIN",
+  "mitigation": "Validate cross-tool data flow and require authorization at each consequential boundary.",
+  "timestamp": "2026-08-21T09:02:45.213954+00:00",
+  "evidence_location": [
+    "attack3_server.log",
+    "attack3_results.json"
+  ]
+}

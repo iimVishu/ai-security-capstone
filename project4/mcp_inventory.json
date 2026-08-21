@@ -1,0 +1,31 @@
+{
+  "server": {
+    "name": "mcp-servers/everything",
+    "transport": null,
+    "endpoint": null,
+    "status": "server name and tool identifiers confirmed in MCP Inspector; transport and endpoint pending verification"
+  },
+  "tools": [
+    {"name": "Echo Tool", "identifier": "echo", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Annotated Message Tool", "identifier": "get-annotated-message", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Print Environment Tool", "identifier": "get-env", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Resource Links Tool", "identifier": "get-resource-links", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Resource Reference Tool", "identifier": "get-resource-reference", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Structured Content Tool", "identifier": "get-structured-content", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Sum Tool", "identifier": "get-sum", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Tiny Image Tool", "identifier": "get-tiny-image", "schema": null, "schema_status": "Pending verification"},
+    {"name": "GZip File as Resource Tool", "identifier": "gzip-file-as-resource", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Toggle Simulated Logging", "identifier": "toggle-simulated-logging", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Toggle Subscriber Updates", "identifier": "toggle-subscriber-updates", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger Long-Running Operation Tool", "identifier": "trigger-long-running-operation", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Get Roots List Tool", "identifier": "get-root-list", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger Elicitation Request Tool", "identifier": "trigger-elicitation-request", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger URL Elicitation Tool", "identifier": "trigger-url-elicitation", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger Sampling Request Tool", "identifier": "trigger-sampling-request", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Simulate Resource Query", "identifier": "simulate-resource-query", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger Async Sampling Request Tool", "identifier": "trigger-async-sampling-request", "schema": null, "schema_status": "Pending verification"},
+    {"name": "Trigger Async Elicitation Request Tool", "identifier": "trigger-async-elicitation-request", "schema": null, "schema_status": "Pending verification"}
+  ],
+  "resources": [],
+  "prompts": []
+}

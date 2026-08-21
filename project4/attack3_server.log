@@ -1,0 +1,3 @@
+{"timestamp": "2026-08-21T09:02:45.254442+00:00", "event": "server_started", "tools": ["chain_source_tool", "chain_consumer_tool"]}
+{"timestamp": "2026-08-21T09:02:45.255746+00:00", "event": "tool_invoked", "tool": "chain_source_tool", "arguments": {"value": "harmless-chain-test"}, "response": "SOURCE_VALUE::harmless-chain-test"}
+{"timestamp": "2026-08-21T09:02:45.255916+00:00", "event": "tool_invoked", "tool": "chain_consumer_tool", "arguments": {"value": "SOURCE_VALUE::harmless-chain-test"}, "response": "CONSUMED_VALUE::SOURCE_VALUE::harmless-chain-test"}

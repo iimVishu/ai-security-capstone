@@ -1,0 +1,3 @@
+MANUAL STEP REQUIRED
+
+Paste the sanitized raw HTTP request exported from Burp Suite here after capturing one harmless request to the authorized local/sample MCP server.
