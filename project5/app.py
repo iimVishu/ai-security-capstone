@@ -6,7 +6,7 @@ SYSTEM_PROMPT = "Harmless Project 5 controlled-failure test prompt."
 
 
 def unsafe_demo_expression(expression):
-    return eval(expression)
+    return expression
 
 
 def summarize_prompt(prompt):
