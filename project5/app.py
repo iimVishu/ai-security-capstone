@@ -1,12 +1,13 @@
 """Small safe demo application for the Project 5 pipeline."""
 
+import ast
 import os
 
 SYSTEM_PROMPT = "Harmless Project 5 controlled-failure test prompt."
 
 
 def unsafe_demo_expression(expression):
-    return eval(expression)
+    return ast.literal_eval(expression)
 
 
 def summarize_prompt(prompt):
