@@ -22,6 +22,10 @@ The existing project documentation reports five injection payloads blocked with 
 
 Project 3 contains a local red-team campaign with 20 adversarial prompts across prompt injection, jailbreak, role-play bypass, and encoded-payload categories. It also contains a five-technique MITRE ATLAS mapping covering ML Attack Staging, Exfiltration, Impact, Reconnaissance, and AI Model Access. The ATLAS tests target only the local Ollama generation endpoint at `http://127.0.0.1:11434/api/generate`.
 
+### Project 5 — AI Security DevSecOps Pipeline
+
+Project 5 adds a repository-level GitHub Actions workflow with sequential Bandit, Safety dependency scanning, Gitleaks, and a custom prompt-injection scanner. Its controlled failing-state plan and pipeline documentation are in `project5/`; the deliberate failure is isolated to the test commit.
+
 ## Technologies and Tools
 
 - Python
