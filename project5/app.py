@@ -2,7 +2,6 @@
 
 import os
 
-SYSTEM_PROMPT = "Harmless Project 5 controlled-failure test prompt."
 
 
 def unsafe_demo_expression(expression):
