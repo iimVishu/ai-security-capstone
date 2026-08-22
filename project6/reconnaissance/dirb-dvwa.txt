@@ -1,0 +1,41 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb-dvwa.txt
+START_TIME: Fri Aug 21 17:55:28 2026
+URL_BASE: http://127.0.0.1:42001/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://127.0.0.1:42001/ ----
+==> DIRECTORY: http://127.0.0.1:42001/config/
+==> DIRECTORY: http://127.0.0.1:42001/database/
+==> DIRECTORY: http://127.0.0.1:42001/docs/
+==> DIRECTORY: http://127.0.0.1:42001/external/
++ http://127.0.0.1:42001/favicon.ico (CODE:200|SIZE:1406)
++ http://127.0.0.1:42001/index.php (CODE:302|SIZE:0)
++ http://127.0.0.1:42001/php.ini (CODE:200|SIZE:154)
++ http://127.0.0.1:42001/phpinfo.php (CODE:302|SIZE:0)
++ http://127.0.0.1:42001/robots.txt (CODE:200|SIZE:25)
+
+---- Entering directory: http://127.0.0.1:42001/config/ ----
+
+---- Entering directory: http://127.0.0.1:42001/database/ ----
+
+---- Entering directory: http://127.0.0.1:42001/docs/ ----
++ http://127.0.0.1:42001/docs/copyright (CODE:200|SIZE:1085)
+==> DIRECTORY: http://127.0.0.1:42001/docs/graphics/
+
+---- Entering directory: http://127.0.0.1:42001/external/ ----
+
+---- Entering directory: http://127.0.0.1:42001/docs/graphics/ ----
+
+-----------------
+END_TIME: Fri Aug 21 17:55:36 2026
+DOWNLOADED: 27672 - FOUND: 6

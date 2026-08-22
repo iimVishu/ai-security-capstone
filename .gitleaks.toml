@@ -1,0 +1,9 @@
+title = "capstone-gitleaks"
+
+[allowlist]
+    description = "Allow known demo/test fixtures that intentionally contain example secrets."
+    paths = [
+        '''^project5/config.py$''',
+        '''^project5/gitleaks-test.txt$''',
+        '''^project5/gitleaks_test.txt$''',
+    ]

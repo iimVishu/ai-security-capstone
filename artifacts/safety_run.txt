@@ -1,0 +1,365 @@
+/home/clouduser/ai-security-capstone/.venv/lib/python3.13/site-packages/safety/auth/main.py:5: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+It will be compatible before version 2.0.0.
+  from authlib.jose.errors import ExpiredTokenError
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
+[31m[1mDEPRECATED: [0m[33m[1mthis command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.[0m
+
+
+[32mWe highly encourage switching to the new [0m[32m[1m`scan`[0m[32m command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
++==============================================================================+
+
+                               /$$$$$$            /$$
+                              /$$__  $$          | $$
+           /$$$$$$$  /$$$$$$ | $$  \__//$$$$$$  /$$$$$$   /$$   /$$
+          /$$_____/ |____  $$| $$$$   /$$__  $$|_  $$_/  | $$  | $$
+         |  $$$$$$   /$$$$$$$| $$_/  | $$$$$$$$  | $$    | $$  | $$
+          \____  $$ /$$__  $$| $$    | $$_____/  | $$ /$$| $$  | $$
+          /$$$$$$$/|  $$$$$$$| $$    |  $$$$$$$  |  $$$$/|  $$$$$$$
+         |_______/  \_______/|__/     \_______/   \___/   \____  $$
+                                                          /$$  | $$
+                                                         |  $$$$$$/
+  by safetycli.com                                        \______/
+
++==============================================================================+
+
+ [1mANNOUNCEMENTS[0m 
+
+[33m  * Warning: flask, requests and pyjwt are unpinned. Safety by default does not[0m 
+[33m    report on potential vulnerabilities in unpinned packages. It is recommended[0m 
+[33m    to pin your dependencies unless this is a library meant for distribution.[0m 
+[33m    To learn more about reporting these, specifier range handling, and options[0m 
+[33m    for scanning unpinned packages visit https://docs.pyup.io/docs/safety-[0m 
+[33m    range-specs[0m 
+
++==============================================================================+
+
+ [1mREPORT[0m 
+
+  Safety [1mv3.8.1[0m is scanning for [1mVulnerabilities[0m[1m...[0m
+[1m  Scanning dependencies[0m in your [1mfiles:[0m
+
+  -> requirements.txt
+
+  Using [1mopen-source vulnerability database[0m
+[1m  Found and scanned 3 packages[0m
+  Timestamp [1m2026-08-22 10:38:50[0m
+[1m  0[0m[1m vulnerabilities reported[0m
+[1m  25[0m[1m vulnerabilities ignored[0m
+
++==============================================================================+
+ [1mVULNERABILITIES REPORTED[0m 
++==============================================================================+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0mSFTY-20260615-88836
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260615-88836/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0mSFTY-20260615-85895
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260615-85895/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0mSFTY-20260615-82927
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260615-82927/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0mSFTY-20260615-02573
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260615-02573/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0m35014
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/35014/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0m48542
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/48542/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0m74429
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/74429/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0m39458
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/39458/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0mSFTY-20260615-71642
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/SFTY-20260615-71642/97c[0m
+
+
+-> Vulnerability may be present given that your pyjwt install specifier is >=0
+[1m   Vulnerability ID: [0m89028
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/89028/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m90553
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/90553/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m39575
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/39575/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m26101
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/26101/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m36546
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/36546/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m77680
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77680/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m58755
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/58755/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m71064
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/71064/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m26103
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/26103/97c[0m
+
+
+-> Vulnerability may be present given that your requests install specifier is
+   >=0
+[1m   Vulnerability ID: [0m65531
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/65531/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m25820
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/25820/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m55261
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/55261/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m36388
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/36388/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m38654
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/38654/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m77323
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/77323/97c[0m
+
+
+-> Vulnerability may be present given that your flask install specifier is >=0
+[1m   Vulnerability ID: [0m86909
+[32m[1m   This vulnerability is being ignored.[0m
+[1m   Reason: [0mThis vulnerability is being ignored due to the 'ignore-
+   unpinned-requirements' flag (default True). To change this, set 'ignore-
+   unpinned-requirements' to False under 'security' in your policy file. See
+   https://docs.pyup.io/docs/safety-20-policy-file for more information.
+[1m   For more information about this vulnerability, visit
+   [0mhttps://getsafety.com/v/86909/97c[0m
+
+
++==============================================================================+
+
+ Scan was completed. 0 vulnerabilities were reported. 25 vulnerabilities from 3 
+ packages were ignored. 
+
++==============================================================================+[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+
+[31m[1mDEPRECATED: [0m[33m[1mthis command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.[0m
+
+
+[32mWe highly encourage switching to the new [0m[32m[1m`scan`[0m[32m command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.[0m
+
+
+[33m[1m+===========================================================================================================================================================================================+[0m
+
+

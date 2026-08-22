@@ -18,12 +18,13 @@ INJECTION_PHRASES = [
     re.compile(r"pretend\s+you\s+are", re.IGNORECASE),
     re.compile(r"act\s+as\s+if\s+you\s+have\s+no\s+restrictions", re.IGNORECASE),
 ]
+IGNORED_PATHS = {".git", "__pycache__", ".venv", "venv", "env", "redteam-env", "ai-lab", "project1", "project2", "project3", "project4", "project5", "tests", "docs"}
 
 
 def scan(root):
     findings = []
     for path in sorted(root.rglob("*.py")):
-        if path.name == "inject_scanner.py" or any(part in {".git", "__pycache__", ".venv", "venv"} for part in path.parts):
+        if path.name == "inject_scanner.py" or any(part in IGNORED_PATHS for part in path.parts):
             continue
         try:
             lines = path.read_text(encoding="utf-8").splitlines()
