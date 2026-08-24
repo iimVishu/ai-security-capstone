@@ -1,4 +1,4 @@
-# AI Security Capstone — Study and Interview Guide
+
 
 ## What this repository is
 
